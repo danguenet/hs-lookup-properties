@@ -15,7 +15,7 @@ Refer to the README in the root of this repository for an explanation, as all th
 1. Update to latest CLI version by running `npm install -g @hubspot/cli@latest`.
 2. Use the [quick start guide](https://developers.hubspot.com/docs/platform/ui-extensions-quickstart) to learn how to setup your account and local environment to work with HubSpot developer projects.
 
-You will need a `hubspot.config.yml` file for the hs project create command, so don't forget to `hs init` like the guide says.
+You will need a `hubspot.config.yml` file for the hs project create command, so don't forget to `hs init` like the guide says. You will also either need a [developer test account](https://developers.hubspot.com/docs/api/account-types) ready to auth into or a Sales or Service Enterprise account with HubSpot.
 
 ### Step 2: Create the project
 
