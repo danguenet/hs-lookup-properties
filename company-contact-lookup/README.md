@@ -2,6 +2,8 @@
 
 This project allows you to add a card to your Company object, enabling the creation of lookup fields that reference Contact records.
 
+![Screenshot 2024-09-25 at 10 39 03 PM](https://github.com/user-attachments/assets/91ff0878-80b8-45ed-9cb8-2760cb7b41c7)
+
 ## How?
 
 Refer to the README in the root of this repository for an explanation, as all the projects will work in the same way.
