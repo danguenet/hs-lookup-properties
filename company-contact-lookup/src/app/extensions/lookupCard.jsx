@@ -10,6 +10,7 @@ import {
   Modal,
   ModalBody,
   ModalFooter,
+  EmptyState,
 } from '@hubspot/ui-extensions';
 import { CrmPropertyList, CrmActionButton } from '@hubspot/ui-extensions/crm';
 import { hubspot } from '@hubspot/ui-extensions';
@@ -122,13 +123,16 @@ const LookupCards = ({ runServerless, actions }) => {
     <Flex direction={'row'} gap={'large'} wrap={'wrap'}>
       {lookupData.length === 0 ? (
         <>
-          <Alert title="Missing" variant="warning">
-            No lookup properties found.
-          </Alert>
-          <Text>1. Make sure you have a property group called "Lookup".</Text>
-          <Text>
-            2. Create a single-line text property under the Lookup Group.
-          </Text>
+          <EmptyState
+            title="No lookup properties found."
+            layout="vertical"
+            reverseOrder={true}
+          >
+            <Text>1. Make sure you have a property group called "Lookup".</Text>
+            <Text>
+              2. Create a single-line text property under the Lookup Group.
+            </Text>
+          </EmptyState>
         </>
       ) : (
         lookupData.map((item) => (
