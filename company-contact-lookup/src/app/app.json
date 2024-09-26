@@ -1,6 +1,6 @@
 {
   "name": "Contact Lookup on Company",
-  "description": "This app allows you to have a lookup field on a company record for contact.",
+  "description": "This app allows you to have a lookup field on the company object for contact records.",
   "uid": "company_contact_lookup",
   "scopes": [
     "crm.objects.companies.read",
