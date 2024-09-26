@@ -1,0 +1,10 @@
+{
+  "projects": [
+    {
+      "name": "company-contact-lookup",
+      "label": "Lookup fields on company object for contacts records",
+      "path": "company-contact-lookup",
+      "insertPath": null
+    }
+  ]
+}

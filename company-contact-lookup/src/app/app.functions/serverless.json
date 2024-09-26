@@ -1,0 +1,12 @@
+{
+  "appFunctions": {
+    "getData": {
+      "file": "getData.js",
+      "secrets": []
+    },
+    "updateProperty": {
+      "file": "updateProperty.js",
+      "secrets": []
+    }
+  }
+}

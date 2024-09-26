@@ -1,0 +1,12 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Contact Lookups",
+    "uid": "company_lookup_contacts_card",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "lookupCard.jsx"
+    },
+    "objectTypes": [{ "name": "companies" }]
+  }
+}

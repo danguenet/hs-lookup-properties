@@ -1,0 +1,10 @@
+{
+  "name": "company-lookup-contacts-functions",
+  "version": "0.1.0",
+  "author": "Dan Guenet - Performance RevOps",
+  "license": "MIT",
+  "dependencies": {
+    "@hubspot/api-client": "^11.2.0",
+    "axios": "^1.7.7"
+  }
+}
