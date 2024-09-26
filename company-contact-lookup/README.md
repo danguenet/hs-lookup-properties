@@ -15,6 +15,8 @@ Refer to the README in the root of this repository for an explanation, as all th
 1. Update to latest CLI version by running `npm install -g @hubspot/cli@latest`.
 2. Use the [quick start guide](https://developers.hubspot.com/docs/platform/ui-extensions-quickstart) to learn how to setup your account and local environment to work with HubSpot developer projects.
 
+You will need a `hubspot.config.yml` file for the hs project create command, so don't forget to `hs init` like the guide says.
+
 ### Step 2: Create the project
 
 Enter into the folder where you want this sample project. In place of `hs project create`, you can optionally use this handy command to directly create a project based on this sample project using `hs project create --templateSource="danguenet/hs-lookup-properties" --location="company-contact-lookup" --name="company-contact-lookup" --template="company-contact-lookup"`.
