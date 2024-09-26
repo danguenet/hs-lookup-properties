@@ -2,6 +2,8 @@
 
 This repository will host all projects related to lookup cards for each Object. A separate project will be required for displaying the card on different objects or for looking up different record types.
 
+![lookup.gif](https://github.com/danguenet/hs-lookup-properties/blob/main/Lookup.gif)
+
 ## How?
 
 The design of these projects is simple. First, create a property group called `Lookup` on the object that will have the card. Then, create properties with a type of `Single-line text`. This setup will pull the relevant lookup properties into the card.
